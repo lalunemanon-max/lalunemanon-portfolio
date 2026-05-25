@@ -1,0 +1,21 @@
+﻿# 允许所有爬虫
+User-agent: *
+Allow: /
+
+# 百度爬虫（显式声明，提高优先级）
+User-agent: Baiduspider
+Allow: /
+
+# 360搜索爬虫
+User-agent: 360Spider
+Allow: /
+
+# 搜狗爬虫
+User-agent: Sogou web spider
+Allow: /
+
+# 神马搜索（阿里系）
+User-agent: YisouSpider
+Allow: /
+
+Sitemap: https://lalunemanon-portfolio.vercel.app/sitemap.xml
